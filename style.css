@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Tree.jpeg);
+    background-position: center;
+    background-size: cover;
+ }
+ .navbar{
+    width: 1200px;
+    height: 80px;
+   margin: auto;
+ }
+ .icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+ }
+ .logo{
+    width: 100px;
+    color: #ff2200;
+    font-size: 35px;
+    padding: 15px 40px;
+    cursor: pointer;
+
+ }
+ .menu{
+    width:300px ;
+    float: left;
+ }
+ ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ ul li{
+    list-style: none;
+    margin:25px 10px;
+    text-transform: uppercase;
+ }
+ ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+ }
+ ul li a:hover{
+    color: #ff2200;
+ }
+ .search{
+    width: 400px;
+    height: 70px;
+    float: left;
+    margin-left: 125px;
+ }
+ .srch{
+    width: 200px;
+    height: 40px;
+    margin: 15px;
+    border: 1px solid #ff2200;
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+    border-right: none;
+ }
+ .btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ff2200;
+    background: #ff2200;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: -30px;
+    color:white;
+ }
+ .content{
+    width: 700px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    margin-left: 20px;
+ }
+ h1{
+    font-size: 80px;
+    letter-spacing: 1.8px;
+ }
+ .content span{
+   color: #ff2200;
+   font-size: 70px;
+ }
+ .para{
+    font-size: 15px;
+    letter-spacing: 1.0px;
+    line-height: 30px;
+    text-transform: capitalize;
+ }
+ .cn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ff2200;
+   margin-top: 10px;
+   background: #ff2200;
+   border-radius: 10px;
+
+ }
+ .cn a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    transition: 0.4s ease-out;
+ }
+ .cn:hover{
+    background-color: white;
+ }
+ .form{
+   width: 250px;
+   height: 380px;
+   background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+   position: absolute;
+   left: 630px;
+   top: -50px;
+   border-radius: 20px;
+   padding: 25px;
+ }
+  .form h2{
+   width: 220px;
+   text-align: center;
+   border-radius: 10px;
+   padding: 10px;
+   background: white;
+   color: #ff2200;
+ } 
+ .form input{
+   width: 220px;
+   height: 30px;
+   border: 1px solid #ff2200;
+   margin-top: 20px;
+   border-radius: 10px;
+   background: transparent;
+   letter-spacing: 1.2px;
+   border-right: none;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+ }
+ 
+ 
+ ::placeholder{
+   color: white;
+   font-family: arial;
+   text-transform: capitalize;
+   font-size: 15px;
+ }
+ .btnn{
+   width: 220px;
+   height: 40px;
+   margin-top: 20px;
+   border: 1px solid #ff2200;
+   background: #ff2200;
+   border-radius: 10px;
+
+ }
+ .btnn:hover{
+   background-color: white;
+ }
+ .btnn a{
+   color: #000;
+   text-decoration: none;
+   font-size: 20px;
+ }
+ .link{
+   text-align: center;
+   margin-top: 20px;
+   font-size: 18px;
+ }
+ .link a{
+   text-decoration: none;
+   color: #ff2200;
+ }
+ .liw{
+   text-align: center;
+   margin-top: 20px;
+   font-size: 18px;
+ }
